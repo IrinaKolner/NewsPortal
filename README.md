@@ -8,7 +8,8 @@ from news.models import *
 from django.db.models import Sum
 
 
-Создать двух пользователей (с помощью метода User.objects.create_user('username')).
+
+Создать двух пользователей (с помощью метода User.objects.create_user('username')). 
 u1 = User.objects.create_user('User1')
 u2 = User.objects.create_user('User2')
 
